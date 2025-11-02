@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Рибалка Буковини</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Головне зображення -->
+  <img src="https://agronews.ua/wp-content/uploads/2021/07/630_360_1530947648-7604-1746459209.webp"
+       alt="Риболовля на Буковині"
+       class="main-image">
+
+  <!-- Меню сайту -->
+  <header class="head">
+    <img src="image.jpg" class="logo" alt="логотип">
+    <nav class="menu">
+      <ul class="menu-links">
+        <li class="menu-item"><a href="index.html" class="menu-item-link">Головна</a></li>
+        <li class="menu-item"><a href="destinations.html" class="menu-item-link">Місця для риболовлі</a></li>
+        <li class="menu-item"><a href="instrument.html" class="menu-item-link">Рибальські знаряддя</a></li>
+        <li class="menu-item"><a href="advice.html" class="menu-item-link">Поради</a></li>
+        <li class="menu-item"><a href="contact.html" class="menu-item-link">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Головний банер -->
+  <section class="hero">
+    <h1 class="hero-title">Ласкаво просимо до Рибалки Буковини!</h1>
+    <p class="hero-text">Відкрийте для себе найкращі місця та поради для успішної риболовлі.</p>
+  </section>
+
+  <!-- Основний контент -->
+  <section class="intro">
+
+    <div class="card">
+      <img src="destinations.jpg" alt="Місця для риболовлі" class="card-img">
+      <div class="card-content">
+        <h3 class="card-title">Найкращі місця</h3>
+        <ul class="card-list">
+          <li class="card-list-item">Річки</li>
+          <li class="card-list-item">Озера</li>
+        </ul>
+
+        <h3 class="card-title">Рибальські знаряддя</h3>
+        <ul class="card-list">
+          <li class="card-list-item">Катушки, приманки</li>
+          <li class="card-list-item">Вудлища</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-content">
+        <h3 class="card-title">Корисні поради</h3>
+        <ul class="card-list">
+          <li class="card-list-item">Як правильно вибрати приманку</li>
+          <li class="card-list-item">Найкращий час для риболовлі</li>
+          <li class="card-list-item">Поради для початківців</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Підвал -->
+  <footer>
+    <p class="footer-info">
+      &copy; 2024 Рибалка Буковини. Усі права захищено.
+    </p>
+  </footer>
+
+</body>
+</html>
